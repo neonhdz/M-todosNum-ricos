@@ -62,7 +62,7 @@ Ocurre al intentar usar un objeto que no ha sido inicializado.
 - Causa: Falta de validación
 
 
-# 12. Índice Fuera de Rango (ArrayIndexOutOfBoundsException)
+## 12. Índice Fuera de Rango (ArrayIndexOutOfBoundsException)
 
 Acceder a una posición inexistente de un arreglo.
 
@@ -70,7 +70,7 @@ Acceder a una posición inexistente de un arreglo.
 - Causa: Error lógico en índices
 
 
-# 13. Bucle Infinito Accidental
+## 13. Bucle Infinito Accidental
 
 Ocurre cuando la condición de salida nunca se cumple.
 - Ejemplo: Contador que no cambia correctamente
