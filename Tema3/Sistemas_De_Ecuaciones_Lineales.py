@@ -107,9 +107,9 @@ class SistemaEcuacionesApp:
         
         # Crear encabezados explicativos
         for j in range(self.matrix_size):
-            ttk.Label(self.matrix_label_frame, text=f"x{j+1}", font=("Segoe UI", 9, "bold")).grid(row=0, column=j, padx=5, pady=2, sticky=tk.CENTER)
+            ttk.Label(self.matrix_label_frame, text=f"x{j+1}", font=("Segoe UI", 9, "bold")).grid(row=0, column=j, padx=5, pady=2)
         ttk.Label(self.matrix_label_frame, text=" | ", font=("Segoe UI", 10, "bold")).grid(row=0, column=self.matrix_size, padx=2)
-        ttk.Label(self.matrix_label_frame, text="b", font=("Segoe UI", 9, "bold")).grid(row=0, column=self.matrix_size+1, padx=5, pady=2, sticky=tk.CENTER)
+        ttk.Label(self.matrix_label_frame, text="b", font=("Segoe UI", 9, "bold")).grid(row=0, column=self.matrix_size+1, padx=5, pady=2)
         
         # Valores de ejemplo predeterminados (Sistema dominante de 3x3 del ejercicio base)
         default_A = [
@@ -159,8 +159,7 @@ class SistemaEcuacionesApp:
             raise ValueError("Por favor asegúrese de que todos los coeficientes sean valores numéricos válidos.")
 
     def log(self, text):
-        self.txt_output.insert(tk.END, text + "
-")
+        self.txt_output.insert(tk.END, text + " \n")
 
     def solve_system(self):
         self.txt_output.delete("1.0", tk.END)
@@ -348,5 +347,7 @@ class SistemaEcuacionesApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
+    app = SistemaEcuacionesApp(root)
+    root.mainloop()
     app = SistemaEcuacionesApp(root)
     root.mainloop()
