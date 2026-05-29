@@ -124,3 +124,12 @@ $$f(0.57735) = e^{-(0.57735+2)^2} = e^{-(2.57735)^2} = e^{-6.6427} = 0.0013$$
 $$I \approx (1)(0.1321) + (1)(0.0013) = 0.1334$$
 
 **Resultado:** La integral es aproximadamente **0.1334**. Este método demuestra su poder al transformar un problema intratable analíticamente en unas pocas operaciones aritméticas de alta precisión.
+
+
+## Código contenido en:
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema4/Code
+
+## Problemario contenido en: 
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema4/Problemario
