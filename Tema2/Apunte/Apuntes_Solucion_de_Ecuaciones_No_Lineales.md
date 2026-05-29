@@ -98,3 +98,12 @@ Los métodos de búsqueda de raíces tienen infinitas aplicaciones en la ciencia
 3. **Física (Mecánica de Fluidos y Aerodinámica):** Cálculo del factor de fricción de un fluido en una tubería rugosa utilizando la ecuación implícita de Colebrook-White:
    $$\frac{1}{\sqrt{f}} = -2.0 \log_{10} \left( \frac{\varepsilon/D}{3.7} + \frac{2.51}{Re \sqrt{f}} \right)$$
    Esta ecuación no se puede despejar para $f$, por lo que requiere obligatoriamente métodos iterativos como el de aproximaciones sucesivas o Newton-Raphson.
+
+
+## Código contenido en:
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema2/Code
+
+## Problemario contenido en: 
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema2/Problemario
