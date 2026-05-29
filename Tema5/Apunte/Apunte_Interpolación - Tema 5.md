@@ -75,3 +75,12 @@ Para solucionar este problema se utiliza la **interpolación segmentada o por tr
    - Las segundas derivadas coincidan en los nodos (curvaturas iguales = transiciones orgánicas).
 
 Al aplicar splines cúbicos sobre $n$ puntos de datos, se genera un sistema de ecuaciones lineales simultáneas para encontrar los coeficientes de las $n-1$ ecuaciones cúbicas resultantes, entregando un perfil de interpolación excepcionalmente pulido y exacto.
+
+
+## Código contenido en:
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema5/Code
+
+## Problemario contenido en: 
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema5/Problemario
