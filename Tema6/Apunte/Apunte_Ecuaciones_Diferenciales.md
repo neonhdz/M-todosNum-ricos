@@ -120,3 +120,13 @@ $$y(t) = \left( 2 - 0.1t \right)^2 \implies y(1.0) = (2 - 0.1)^2 = \mathbf{3.610
 
 ### Análisis de Resultados del Problemario:
 Como se observa en los cálculos, el método de **Euler** subestima levemente la curva debido a que mantiene una pendiente constante en pasos lineales planos. **Heun** corrige la trayectoria de forma notable usando dos pendientes extremas reduciendo el error al orden de diezmilésimas. Finalmente, **RK4** calza con exactitud milimétrica sobre la curva real, validando por qué es la herramienta estándar para simulaciones de EDOs complejas en la industria.
+
+
+
+## Código contenido en:
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema6/Code
+
+## Problemario contenido en: 
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema6/Problemario
