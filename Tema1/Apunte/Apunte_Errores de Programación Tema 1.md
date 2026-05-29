@@ -76,3 +76,11 @@ Ocurre cuando la condición de salida nunca se cumple.
 - Ejemplo: Contador que no cambia correctamente
 - Causa: Error lógico
 
+
+## Código de cada error contenido en:
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema1/Code
+
+## Problemario contenido en: 
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema1/Problemario
