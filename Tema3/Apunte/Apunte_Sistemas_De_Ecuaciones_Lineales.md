@@ -109,3 +109,12 @@ Utilizando un vector inicial $\mathbf{x}^{(0)} = [0, 0, 0]^T$ y una tolerancia d
 ### Conclusión del Análisis de Resultados
 1. **Garantía de Convergencia:** El sistema propuesto cumple con la condición EDD ($|4| > |-1|+|1|$; $|-8| > |4|+|1|$; $|5| > |-2|+|1|$), razón por la cual ambos métodos convergieron rápidamente.
 2. **Elección del Método:** Para aplicaciones en ingeniería con sistemas masivos (ej. simulación por Elementos Finitos o Redes Eléctricas), **Gauss-Seidel** o variantes avanzadas (como SOR) son preferibles sobre Jacobi por su alta eficiencia en memoria y velocidad.
+
+
+## Código contenido en:
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema3/Code
+
+## Problemario contenido en: 
+
+https://github.com/neonhdz/M-todosNum-ricos/tree/main/Tema3/Problemario
